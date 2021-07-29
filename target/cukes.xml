@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="16.808">
+    <testcase classname="Search and place order for Vegs" name="Search for items and validate results" time="16.655">
+        <system-out>
+            <![CDATA[Given User is on the official website GreenCard landing page................passed
+When User searched for Brinjal Vegetables...................................passed
+And added items to the Cart.................................................passed
+And user proceeded to checkout page.........................................passed
+Then verify selected "Brinjal" is displayed on Checkout page................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
