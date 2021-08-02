@@ -57,6 +57,7 @@ public class VegetableSearch {
         Thread.sleep(2000);
     }
 
+    //assertion
     @Then("verify selected {string} is displayed on Checkout page")
     public void verifySelectedIsDisplayedOnCheckoutPage(String veg) {
         Assert.assertTrue(driver.findElement(By.xpath("//p[contains(text(),'Brinjal')]")).getText().contains(veg));
